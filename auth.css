@@ -1,0 +1,37 @@
+
+.mentor-auth-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #b19bc5;
+    border: 1px solid #130844;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentor-auth-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .mentor-auth-form input[type="file"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #454155;
+  }
+  
+  .mentor-auth-form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #6e53cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mentor-auth-form button[type="submit"]:hover {
+    background-color: #7d7691;
+  }

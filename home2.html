@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Connect</title>
+    <link rel="stylesheet" href="home2.css">
+</head>
+<body>
+    <header>
+        <h1>Mentor Connect</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Search mentor</a></li>
+                <li><a href="#">Meeting room</a></li>
+                <li><a href="#">Schedule Meeting</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2 class="heading">Find Your Perfect Mentor</h2>
+                <p class="para">Connect with experienced professionals in your field and unlock your potential.</p>
+                <button>Find a Mentor</button>
+            </div>
+            <div class="hero-image">
+                <img src="logo.jpg" alt="Mentor Connect Hero Image">
+            </div>
+        </section>
+
+        <section class="recommended-mentors">
+            <h2>Recommended Mentors</h2>
+            <div class="mentor-grid">
+                <div class="mentor-card">
+                    <img src="https://t3.ftcdn.net/jpg/06/89/60/46/360_F_689604602_9I3sZbzcT7qcn9ePNwvisROtmRGuuQem.jpg" alt="Mentor 1">
+                    <h3>Srikant Reddye</h3>
+                    <p>Software Engineer | Mumbai(MH)</p>
+                    <p>Expert in web development, with over 10 years of experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="mentor-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaCdEFyo8nOUyt35Tu7GEJ0xrs42GNh34OQ&s" alt="Mentor 2">
+                    <h3>Anuv Jain</h3>
+                    <p>Marketing Manager | Jalandhar(Pjb)</p>
+                    <p>Passionate about digital marketing and branding.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="mentor-card">
+                    <img src="https://img.lovepik.com/photo/50249/5687.jpg_wh860.jpg" alt="Mentor 3">
+                    <h3>Santosh Mishra</h3>
+                    <p>finance Manager | Bhopal(MP)</p>
+                    <p>Experienced in financial modeling and investment analysis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="filter-suggestions">
+            <h2>Filter Your Search</h2>
+            <div class="filter-grid">
+                <div class="filter-column">
+                    <h3>Pricing</h3>
+                    <ul>
+                        <li><input type="checkbox" id="free"> <label for="free">Free</label></li>
+                        <li><input type="checkbox" id="paid"> <label for="paid">Paid</label></li>
+                    </ul>
+                </div>
+                <div class="filter-column">
+                    <h3>Expertise</h3>
+                    <ul>
+                        <li><input type="checkbox" id="webdev"> <label for="webdev">Web Development</label></li>
+                        <li><input type="checkbox" id="marketing"> <label for="marketing">Marketing</label></li>
+                        <li><input type="checkbox" id="finance"> <label for="finance">Finance</label></li>
+                    </ul>
+                </div>
+                <div class="filter-column">
+                    <h3>Location</h3>
+                    <ul>
+                        <li><input type="checkbox" id="nyc"> <label for="nyc">New York City</label></li>
+                        <li><input type="checkbox" id="la"> <label for="la">Los Angeles</label></li>
+                        <li><input type="checkbox" id="chicago"> <label for="chicago">Chicago</label></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-filters">
+            <h2> Search by interest</h2>
+            <form action="#">
+                <input type="text" placeholder="Search by keyword, skill, or mentor name...">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mentor Connect. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

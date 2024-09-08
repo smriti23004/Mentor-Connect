@@ -1,0 +1,267 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3b5998, #8e44ad); /* Blue and purple gradient */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    background-color: #3b5998;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adjusted shadow for a deeper effect */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo-img {
+    width: 50%;
+    height: 25px;
+    margin-right: 15px;
+    border-radius: 25px;
+  }
+  .abc{
+    width: 50%;
+  }
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(194, 181, 218);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* background: linear-gradient(135deg, #8e44ad, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover, .nav-links a:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+  }
+  
+  .nav-links .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #3b5998;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links li:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown li {
+    width: 200px;
+    margin: 0;
+  }
+  
+  .dropdown a {
+    padding: 10px;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .login-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+  }
+  
+  .login-image img {
+    max-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #3b5998;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #732d91;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .divider span {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ddd;
+    position: relative;
+  }
+  
+  .divider span:before {
+    content: "OR";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 10px;
+    color: #888;
+  }
+  
+  .google-btn-container {
+    margin-bottom: 20px;
+    
+  }
+  
+  .google-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9a72e6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-btn img {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .google-btn:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .login-section {
+      flex-direction: column;
+    }
+  
